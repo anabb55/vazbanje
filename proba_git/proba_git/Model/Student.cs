@@ -8,7 +8,7 @@ namespace proba_git.Model
 {
     internal class Student
     {
-        public string Name { get; set; }
+        public int Name { get; set; }
         public string Surname { get; set; }
         public int JMBG { get; set; }
 
