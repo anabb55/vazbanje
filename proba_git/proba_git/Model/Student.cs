@@ -19,11 +19,10 @@ namespace proba_git.Model
 
         }
 
-        public void printAllGrades(Student student) {
+        public void printUsingTrace(Student student) {
             foreach (int grade in student.grades) {
-                Console.WriteLine(grade);
+                System.Diagnostics.Trace.WriteLine(grade);
             }
-
         }
 
 
