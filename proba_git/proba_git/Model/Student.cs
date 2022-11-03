@@ -20,8 +20,8 @@ namespace proba_git.Model
         }
 
         public void printAllGrades(Student student) {
-            foreach (int grade in student.grades) {
-                Console.WriteLine(grade);
+            foreach (int jmbg in student.grades) {
+                Console.WriteLine(jmbg);
             }
 
         }
